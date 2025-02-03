@@ -27,3 +27,4 @@ print('My time2', time.time()-start)
 start = time.time()
 cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 print('OpenCV time', time.time()-start)
+
